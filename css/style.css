@@ -229,7 +229,7 @@ body{
 .fixeds{
     position: fixed;
     right: 0;
-    bottom: 0;
+    bottom: -300%;
     width: 100%;
     height: 100%;
     z-index: 666666999;
@@ -239,6 +239,7 @@ body{
     clip-path: circle(0% at 100% 100%);
 }
 .fixeds.active{
+    bottom: 0;
     clip-path: circle(200% at 100% 100%);
     opacity: 1;
     transform: rotate(0);
