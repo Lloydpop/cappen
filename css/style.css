@@ -236,11 +236,10 @@ body{
     background-image: linear-gradient(rgb(236, 120, 120),rgb(236, 120, 120),rgb(54, 54, 209));
     opacity: 0.9;
     transition: 1s  ease-in-out;
-    clip-path: circle(0% at 100% 100%);
+
 }
 .fixeds.active{
     bottom: 0;
-    clip-path: circle(200% at 100% 100%);
     opacity: 1;
     transform: rotate(0);
 
