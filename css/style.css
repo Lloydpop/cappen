@@ -688,7 +688,7 @@ body{
     transition-delay: 1.9s;
 }
 .liner-fixed.active{
-    transform: translateX(-300%);
+    transform: translateY(-300%);
 }
 .liner::after{
     content: "";
